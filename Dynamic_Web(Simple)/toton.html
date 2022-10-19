@@ -1,0 +1,25 @@
+<html>
+ <head>
+  <title>Toton</title>
+  <style type="text/css">
+        body {
+            background-color: FAFAEB;
+            color: darkblue;
+        }
+    </style>
+ </head>
+ <body>
+  <h1>Turnbull High School Library</h1>
+  <h3>Search for books by Book Type</h3>
+  <form action="search_result.php" method="get">
+   <label for="searchtype">Book type:</label>
+   <select name="searchtype">
+      <option value="all">All</option>
+      <option value="softCover">Soft Cover</option>
+	  <option value="hardCover">Hard Cover</option>
+	  <option value="digital">Digital</option>
+   </select>
+   <input type="submit" value="Search">
+  </form>
+ </body>
+</html>
